@@ -1,6 +1,6 @@
 from pathlib import Path
 
-APP_NAME = "Data_Chad"
+APP_NAME = "DataChad"
 MODEL = "gpt-3.5-turbo"
 PAGE_ICON = "🤖"
 
