@@ -97,7 +97,7 @@ with st.sidebar:
        #     placeholder="Optional, using ours if empty",
       #  ) 
         activeloop_org_name = "activeLoopapi"
-        ) 
+         
         submitted = st.form_submit_button("Submit")
         if submitted:
             authenticate(openai_api_key, activeloop_token, activeloop_org_name)
