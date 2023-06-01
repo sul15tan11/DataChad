@@ -112,9 +112,8 @@ with st.sidebar:
         advanced_options_form()
 
 
-# the chain can only be initialized after authentication is OK
-if "chain" not in st.session_state:
-    update_chain()
+
+update_chain()
 
 if clear_button:
     # resets all chat history related caches
