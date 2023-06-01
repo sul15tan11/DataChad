@@ -33,7 +33,7 @@ st.set_page_config(
     page_title=APP_NAME, page_icon=PAGE_ICON, initial_sidebar_state="expanded"
 )
 st.markdown(
-    f"<h1 style='text-align: center;'>{APP_NAME} {PAGE_ICON} <br> أهلا بك</h1>",
+    f"<h1 style='text-align: center;'>{APP_NAME} {PAGE_ICON} <br>معنا أهلا بك</h1>",
     unsafe_allow_html=True,
 )
 
